@@ -1,5 +1,5 @@
 //
-//  Champion.swift
+//  ChampionWrapper.swift
 //
 //  Created by Tunx on 20/10/25.
 //
@@ -15,4 +15,8 @@ struct ChampionData: Codable {
     let name: String
     let tags: [String]
     let image: ImageData    // Thêm phần image
+}
+
+struct ImageData: Codable {
+    let full: String
 }

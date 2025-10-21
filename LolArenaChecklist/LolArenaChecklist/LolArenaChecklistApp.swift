@@ -11,7 +11,7 @@ import SwiftUI
 struct LolArenaChecklistApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChampionListView()
         }
     }
 }
